@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: cursive;
+}
+div .container{
+    top: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+.row{
+    width: 100%;
+}
+.container1, .container2, .container3{
+    float: left;
+    padding: 10px;
+}
+#content{
+    background-color: beige;
+    padding: 0 20px;
+    color: black;
+    border: 3px solid #000;
+    font-weight: bolder;
+
+}
+#header1{
+    background-color: darksalmon;
+    color: black;
+    text-align: center;
+    border: 3px solid #000;
+    margin-top: 0px;
+    width: 120px;
+    height: 30px;
+    float: right;
+    font-weight: bolder;
+    padding-top: 1px;
+}
+#header2{
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 3px solid #000;
+    margin-top: 0px;
+    width: 120px;
+    height: 30px;
+    float: right;
+    font-weight: bolder;
+    padding-top: 1px;
+}
+#header3{
+    background-color: rgb(219, 204, 154);
+    color: black;
+    text-align: center;
+    border: 3px solid #000;
+    margin-top: 0px;
+    width: 120px;
+    height: 30px;
+    float: right;
+    font-weight: bolder;
+    padding-top: 1px;
+}
+@media only screen and (min-width: 992px){
+    .container1, .container2, .container3{
+        display: inline-block;
+        width: 33%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container1, .container2, .container3{
+        display: inline-block;
+    }
+    .container1, .container2{
+        width: 50%;
+    }
+    .container3{
+        width: 100%;
+    }   
+}
+@media only screen and (max-width: 767px){
+    .container1, .container2, .container3{
+        display: inline-block;
+        width: 100%;
+    }
+}
